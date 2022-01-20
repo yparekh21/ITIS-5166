@@ -1,0 +1,129 @@
+
+body
+{
+	font-family: helvetica, cambria, georgia;
+	color: maroon;
+	background-color: #fcde67;
+	margin-left: 75px;
+	margin-right: 75px;
+}
+
+header, footer
+{
+	text-align: center;
+}
+
+h1, h2
+{
+	font-family: Georgia, Cochin, Cambria, serif;
+	text-align: center;
+}
+
+h3 {
+	font-family: Georgia, Cochin, Cambria, serif;
+	color: #000080;
+	text-align: left;
+}
+h4 {
+	font-family: Georgia, Cochin, Cambria, serif;
+	color: #000080;
+	text-indent: 50px;
+	font-weight: normal;
+}
+
+nav
+{
+	color: #008080 !important;
+	text-align: center;
+}
+
+a
+{
+	text-decoration: none;
+}
+
+a:hover
+{
+	text-decoration: underline;
+	color: mediumseagreen;
+}
+
+figure
+{
+	text-align: center;
+}
+
+figcaption
+{
+	font-style: italic;
+}
+
+
+main {
+	font-family: courier new;
+	
+}
+
+thead
+{
+	background-color: #fc4e4e;
+	
+}
+tbody tr:nth-child(odd) td
+{
+	color: #691a1a;
+	background-color: #fcd2d2;
+}
+tbody tr:nth-child(even) td
+{
+	color: #691a1a;
+	background-color: #fa7878;
+}
+td, th
+{
+	border: 1px solid black;
+	vertical-align: middle;
+}
+
+
+figure{
+	text-align: center;
+	font-size: 15px;
+	padding: 5px;
+}
+
+#submit{
+	color: #ffd9d9;
+	background-color: #ab2b2b;
+}
+input[type=email]{
+	width: 200px;
+}
+#information, #dining, #contact, #payment {
+	background-color: #fff8db;
+	font-size: 15px;
+	margin: 13px;
+}
+p{
+	background-color: #ffe991;
+	font-weight: bold;
+}
+
+#button:hover{
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.button{
+  background-color: #fff000;
+  border-radius: 12px;
+  font-weight: bold;
+  text-align: center;
+
+}
+
+p.paragraph {
+	font-weight: normal;
+	margin-left: 50px;
+}
+
+
