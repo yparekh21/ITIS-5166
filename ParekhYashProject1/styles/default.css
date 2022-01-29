@@ -1,0 +1,96 @@
+body {
+	font-family: helvetica;
+	color: #0f0326;
+	background-color: #cfc9c2;
+
+}
+
+main {
+	font-family: courier new;
+	background-color: #FFFF82;
+	padding: 25px;
+}
+
+h3 {
+	font-weight: normal;
+}
+
+.header-nav {
+	background-color: #eb9f4d
+}
+
+footer {
+	background-color: #eb9f4d
+}
+
+ul {
+	list-style-type: circle;
+}
+
+.contactButton {
+	transition-duration: 0.4s;
+}
+
+.contactButton:hover {
+	background-color: #fcfc19;
+	/* Green */
+	color: black;
+}
+
+h1, h2, h3 {
+	font-family: Georgia;
+}
+
+a {
+	text-decoration: none;
+	color: #b50012;
+	font-weight: bold;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: #948300;
+}
+
+div {
+	border: 0;
+	border-color: black;
+}
+
+.column {
+	width: 33.33%;
+	float: left;
+}
+
+.topright {
+	position: absolute;
+	top: 30px;
+	right: 20px;
+	font-size: 18px;
+}
+
+.topleft {
+	position: absolute;
+	top: 8px;
+	left: 16px;
+	font-size: 18px;
+}
+
+button {
+	background-color: #fce3a2;
+	border-radius: 0px;
+	padding: 9px 18px;
+	font-family: Georgia;
+	font-size: 18px;
+	cursor: pointer;
+  }
+  #tradeButton:hover{
+	background-color: #ffbb0a;
+  }
+  #rateButton:hover{
+	background-color: #ffbb0a;
+  }
+  
+
+  
+

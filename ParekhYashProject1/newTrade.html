@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>New Trade Page</title>
+	<link href="styles/default.css" rel="stylesheet" type="text/css">
+</head>
+
+
+<body>
+	<div class="header-nav">
+		<header>
+			<div style="position: relative; left: 20px"><h1><a href="index.html"><img src="images/sportsexchange.png" style="width:150px;height:140px;" alt="Logo"></a></h1> </div>
+			<div class="topright"><a href="newTrade.html">Start Trading</a> | <a href="">Login</a> | <a href="">Sign Up</a></div>
+		</header>
+		<hr>
+		<nav style="text-align: center;">
+			<a href="index.html">Home</a>
+			||
+			<a href="trades.html">Trades Page</a>
+			||
+			<a href="trade.html">Trade Detail Page</a>
+			||
+			<a href="newTrade.html">New Trade</a>
+		</nav>
+	</div>
+
+	<main>
+		<form action=#>
+			<h3> Please enter the details of your new trade</h3>
+
+            <p>Sport</p>
+                <label>
+                    <select name="sport" required>
+						<option value="">Choose</option>
+                        <option id="soccer">Soccer</option>
+                        <option id="football">Football</option>
+                        <option id="basketball">Basketball</option>
+                        <option id="baseball">Baseball</option>
+                    </select>
+                </label>
+            <p>Team</p>
+                <label>
+					<input type="text" placeholder="team" id="team" required>
+				</label>
+
+            <p>Item</p>
+			<label>
+				<input type="text" placeholder="item" id="item" required>
+			</label>
+
+			<p>Item</p>
+			<label>
+				<textarea id="description" placeholder="description"  rows="4" cols="50"></textarea>
+			</label>
+			<br><br>
+			<label>
+				<button id="submit" type="submit">Submit</button>
+			</label>
+			
+		</form>
+	</main>
+	<footer>
+		<br>
+		<div>
+			<p>&nbsp;&nbsp;&nbsp;&nbsp;&#169; Sports Exchange</p>&nbsp;&nbsp;&nbsp;&nbsp;
+			<a href="">About</a> &nbsp;&nbsp;&nbsp;&nbsp; <a href="">Contact</a> &nbsp;&nbsp;&nbsp;&nbsp; 
+			<a href="https://html5.validator.nu/">Validate HTML</a> 
+		</div>
+		<br>
+	</footer>
+</body>
+
+</html>
