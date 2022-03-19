@@ -1,0 +1,19 @@
+<%- include('../partials/header.ejs')%>
+	<main>
+        <div style="position: relative; padding: 40px; width: 60%;">
+            <h1><%= item.name%></h1>
+            <img src="<%= item.image%>" style="width:280px;height:280px;" alt="Logo">
+            <p><u><b>Status: </b></u><br><p style="color: green"><%= item.status%></p></p>
+            <p><u><b>Description: </b></u><br><%= item.description%></p>
+            <form>
+                <button type="submit" formmethod = "GET" formaction = "/items/<%= item.id%>/edit">Edit</button>
+                <button type="submit" formmethod = "POST" formaction = "/items/<%= item.id%>?_method=DELETE">Delete</button>
+            </form>
+        </div>
+        <div style="position: absolute; right: 150px; top: 300px;">
+            <h3>Are you interested in this item?</h3>
+            <button id="tradeButton" name="tradeButton" type="button">Trade it</button>
+            <button id="rateButton" name="rateButton" type="button">Rate it</button>
+        </div>
+	</main>
+<%- include('../partials/footer.ejs')%>

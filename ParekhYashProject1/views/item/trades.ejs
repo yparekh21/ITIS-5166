@@ -1,0 +1,15 @@
+<%- include('../partials/header.ejs')%>
+	<main>
+
+		<div style="position: relative; left: 50px;">
+			<%if(items.length){%>
+				<h3>List of Items</h3>
+				<%items.forEach(item=>{%>
+					<a href="/items/<%= item.id%>"><p><%= item.name%></p></a>
+				<%});
+			} else {%>
+				<p>There are no items to display.</p>
+			<%}%>
+		</div>
+	</main>
+<%- include('../partials/footer.ejs')%>

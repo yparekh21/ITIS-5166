@@ -1,0 +1,33 @@
+<%- include('../partials/header.ejs')%>
+	<main>
+		<form action = '/items' method = 'POST'>
+			<h3> Please enter the details of your new trade</h3>
+
+            <p>Sport</p>
+                <label>
+                    <select name="sport" required>
+						<option value="">Choose</option>
+                        <option id="soccer">Soccer</option>
+                        <option id="football">Football</option>
+                        <option id="basketball">Basketball</option>
+                        <option id="hocket">Hockey</option>
+                    </select>
+                </label>
+
+            <p>Name</p>
+			<label>
+				<input type="text" placeholder="name" id="name" required>
+			</label>
+
+			<p>Description</p>
+			<label>
+				<textarea id="description" placeholder="description"  rows="4" cols="50"></textarea>
+			</label>
+			<br><br>
+			<label>
+				<button id="submit" type="submit">Submit</button>
+			</label>
+			
+		</form>
+	</main>
+<%- include('../partials/footer.ejs')%>
